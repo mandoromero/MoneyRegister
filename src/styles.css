@@ -1,0 +1,160 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: black;
+}
+
+#title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+}
+
+#input-container {
+  margin: 0 auto 16px auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  color: blue;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+input {
+  text-align: right;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 300px;
+}
+
+#change {
+  width: 25%;
+  margin: 30px auto 0 auto;
+}
+
+#change-due,
+#amount-due {
+  color: blue;
+}
+
+#customer-cash {
+  font-size: 30px;
+}
+
+#btn {
+  border: 1px red dashed;
+  width: 71px;
+  margin: 0 auto;
+}
+
+#price {
+  height: 70px;
+  width: 200px;
+  border-radius: 10%;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 325px;
+}
+
+#money-owed {
+  height: 40px;
+  width: 165px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  top: 12px;
+  font-size: 25px;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+#money-owed p {
+  margin: 0;
+}
+#stand {
+  height: 60px;
+  width: 30px;
+  margin-left: 350px;
+  background-color: blue;
+}
+
+#cash-register {
+  width: 450px;
+  background-color: blue;
+  padding-top: 10px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  padding-bottom: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+#cash-register p {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 25px;
+}
+
+#money-inventory {
+  width: 50%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: relative;
+}
+
+#vent {
+  width: 30%;
+  height: 105px;
+  margin-left: 50px;
+  margin-top: 30px;
+  position: relative;
+}
+
+#first-row,
+#second-row,
+#third-row {
+  width: 100%;
+  height: 30%;
+  margin-top: 5px;
+  display: flex;
+}
+
+.right,
+.center,
+.left {
+  border: 1px white dashed;
+  margin-left: 5px;
+  background-color: white;
+  position: relative;
+  width: 33%;
+}
+
+#till {
+  width: 450px;
+  height: 75px;
+  background-color: blue;
+  margin: 10px auto;
+  padding-top: 15px;
+}
+#key-hole {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+}

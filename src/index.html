@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <title>Cash Register Project</title>
+    <link rel="stylesheet" href="styles.css" type+"text/css" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <h1 id="title">
+      Cash Register Project
+    </h1>
+
+    <div id="input-container">
+      <label id="customer-cash" for="cash">
+        Cash from Customer:
+      </label>
+      <input id="cash" type="number" min="0.01" max="499.99" step="0.01" />
+    </div>
+    <div id="btn">
+      <button id="purchase-btn">Purchase</button>
+    </div>
+    <div id="change">
+      <div id="change-due"></div>
+      <div id="amount-due"></div>
+    </div>
+
+    <div id="price">
+      <div id="money-owed">
+        <p>1.87</p>
       </div>
     </div>
+
+    <div id="stand"></div>
+
+    <div id="cash-register">
+      <div id="money-inventory">
+        <h2>Money Inventory</h2>
+        <div id="penny">
+          <p>Pennies:</p>
+        </div>
+        <div id="nickel">
+          <p>Nickels:</p>
+        </div>
+        <div id="dime">
+          <p>Dimes:</p>
+        </div>
+        <div id="quarter">
+          <p>Quarters:</p>
+        </div>
+        <div id="one">
+          <p>Ones:</p>
+        </div>
+        <div id="five">
+          <p>Fives:</p>
+        </div>
+        <div id="ten">
+          <p>Tens:</p>
+        </div>
+        <div id="twenty">
+          <p>Twenties:</p>
+        </div>
+        <div id="hundred">
+          <p>Hundreds:</p>
+        </div>
+      </div>
+      <div id="vent">
+        <div id="first-row">
+          <div class="left"></div>
+          <div class="center"></div>
+          <div class="right"></div>
+        </div>
+        <div id="second-row">
+          <div class="left"></div>
+          <div class="center"></div>
+          <div class="right"></div>
+        </div>
+        <div id="third-row">
+          <div class="left"></div>
+          <div class="center"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="till">
+      <div id="key-hole"></div>
+    </div>
+    <script src="/app.js"></script>
   </body>
 </html>
